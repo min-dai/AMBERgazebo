@@ -1,0 +1,11 @@
+<launch>
+
+
+  <!-- Start the IKIN tracker demo -->
+  <node pkg="gazebodemos"
+  	type="amberswingleg.py"
+	name="amberswingleg"
+	output="screen">
+  </node>
+
+</launch>
